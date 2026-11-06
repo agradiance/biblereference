@@ -11,7 +11,9 @@ environment:
 dependencies:
   # biblebooks: ^1.1.0
   biblebooks:
-    path: C:/dev/Projects/flutter_package/biblebooks
+    git:
+      url: https://github.com/agradiance/biblebooks.git
+      ref: main
   collection: ^1.19.1
 
 dev_dependencies:
